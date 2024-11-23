@@ -1,4 +1,4 @@
-# dhza-stupid-package-manger
+# yap (yet another package manager)
 ```
 dspm -h
 ```
