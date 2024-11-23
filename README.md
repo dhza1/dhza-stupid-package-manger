@@ -1,2 +1,5 @@
 # dhza-stupid-package-manger
-hi chat
+```
+dspm -h
+```
+to get started
