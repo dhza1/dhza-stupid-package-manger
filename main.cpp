@@ -46,7 +46,7 @@ void searchmain(std::string search="firefox") {
     json dataz = json::parse(res.body);
     for (const auto& result : dataz["results"]) {
         std::cout << HBLU << result["repo"].get<std::string>() << reset << "/" << HYEL << result["pkgname"].get<std::string>() << reset << std::endl;
-        std::cout << HRED << result["pkgdesc"] << reset << std::endl;
+        std::cout << HRED << "\t" <<  result["pkgdesc"] << reset << std::endl;
     }
 }
 int main(int argc, char* argv[]) {
